@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Linq;
 
 namespace HomeworkFirst.Tests
 {
@@ -14,7 +15,7 @@ namespace HomeworkFirst.Tests
             // Act.
             var result = sut.IntegerIndex();
             // Assert.
-            Assert.AreEqual(0, result);
+            Assert.IsTrue(new[] { 0, 4, 8 }.Contains(result));
         }
 
         [TestMethod]
@@ -23,7 +24,7 @@ namespace HomeworkFirst.Tests
             // Assert.
             var sut = new IntegerFinder(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 5);
             // Act.
-            var result = sut.IntegerIndex();
+            var result = sut.FirstIntegerIndex();
             // Assert.
             Assert.AreEqual(1, result);
         }
