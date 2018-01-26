@@ -7,36 +7,27 @@ namespace HomeworkFirst.Tests
     public class ArrayTests
     {
         [TestMethod]
-        public void GivenArrayClassIsInitialized_WhenArrayContainsIntegers_ThenWeCanFindIndexOfPassedInInteger()
+        public void Should_return_negativeOne_when_does_not_find_the_number()
         {
-            // Assert.
-            var sut = new IntegerFinder(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 1);
-            // Act.
-            var result = sut.IntegerIndex();
-            // Assert.
-            Assert.IsTrue(new[] { 0, 4, 8 }.Contains(result));
+            var result = Program.FirstIntegerIndex(new int[0], 5);
+
+            Assert.AreEqual(-1, result);
         }
 
         [TestMethod]
-        public void GivenArrayClassIsInitialized_WhenArrayContainsIntegers_ThenWeCanFindIndexOfFirstPassedInInteger()
+        public void Should_return_index_of_first_occurrence()
         {
-            // Assert.
-            var sut = new IntegerFinder(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 5);
-            // Act.
-            var result = sut.FirstIntegerIndex();
-            // Assert.
+            var result = Program.FirstIntegerIndex(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 5);
+
             Assert.AreEqual(1, result);
         }
 
         [TestMethod]
-        public void GivenArrayClassIsInitialized_WhenArrayContainsIntegers_ThenWeCanFindIndexOfLastPassedInInteger()
+        public void Should_return_index_of_last_occurrence()
         {
-            // Assert.
-            var sut = new IntegerFinder(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 6);
-            // Act.
-            var result = sut.IntegerIndex();
-            // Assert.
-            Assert.AreEqual(4, result);
+            var result = Program.LastIntegerIndex(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 6);
+
+            Assert.AreEqual(5, result);
         }
     }
 }
