@@ -21,7 +21,7 @@ You want to create your own GitHub repository where you will be putting all of y
 
 Usually homework will be divided in three sections, each section is ranked by difficulty. From easier to harder. We do hope you will complete all of the assignments but that is not mandatory.
 
-At random, person or group of people will be chosen to present their homework at the begging of each session, so be prepared.
+At random, person or group of people will be chosen to present their homework at the beginning of each session, so be prepared.
 
 ### How do I give feedback?
 Surveys for each sessions are listed below, we kindly as you fill it in after each session. It will help us improve and deliver more quality.
