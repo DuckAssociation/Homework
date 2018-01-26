@@ -23,6 +23,9 @@ Usually homework will be divided in three sections, each section is ranked by di
 
 At random, person or group of people will be chosen to present their homework at the beginning of each session, so be prepared.
 
+### We can help you! Mentoring!
+We have four mentors that can help you & guide you towards results. We are here to help not only from technical stand point. So do not hesitate to contact one of use KKAJ, GSAG, ALLA, VVAS.
+
 ### How do I give feedback?
 Surveys for each sessions are listed below, we kindly as you fill it in after each session. It will help us improve and deliver more quality.
 1) [#1 session](https://www.surveymonkey.com/r/8JZSQ2K) - survey for first session;
