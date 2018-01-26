@@ -7,27 +7,31 @@ namespace HomeworkFirst.Tests
     public class ArrayTests
     {
         [TestMethod]
-        public void Should_return_negativeOne_when_does_not_find_the_number()
+        [DataRow(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 5, 1)]
+        [DataRow(new int[] { }, 5, -1)]
+        [DataRow(new[] { 3, 2, 1 }, 5, -1)]
+        [DataRow(new[] { 1, 7, 7 }, 7, 1)]
+        [DataRow(new[] { 1, 7, 7, 8, 3 }, 3, 4)]
+        public void Should_return_index_of_first_occurrence(int[] values, int number, int expectedIndex)
         {
-            var result = Program.FirstIntegerIndex(new int[0], 5);
+            var actual = Program.FirstIntegerIndex(values, number);
 
-            Assert.AreEqual(-1, result);
+            Assert.AreEqual(expectedIndex, actual);
         }
 
         [TestMethod]
-        public void Should_return_index_of_first_occurrence()
+        [DataRow(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 6, 5)]
+        [DataRow(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 5, 10)]
+        [DataRow(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 47, -1)]
+        [DataRow(new int[] { }, 5, -1)]
+        [DataRow(new int[] { 1, 2, 6 }, 5, -1)]
+        [DataRow(new[] { 1, 1, 1 }, 1, 2)]
+        [DataRow(new[] { 1, 3, 1 }, 3, 1)]
+        public void Should_return_index_of_last_occurrence(int[] values, int number, int expectedIndex)
         {
-            var result = Program.FirstIntegerIndex(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 5);
+            var actual = Program.LastIntegerIndex(values, number);
 
-            Assert.AreEqual(1, result);
-        }
-
-        [TestMethod]
-        public void Should_return_index_of_last_occurrence()
-        {
-            var result = Program.LastIntegerIndex(new[] { 1, 5, 6, 8, 1, 6, 3, 5, 1, 2, 5 }, 6);
-
-            Assert.AreEqual(5, result);
+            Assert.AreEqual(expectedIndex, actual);
         }
     }
 }
