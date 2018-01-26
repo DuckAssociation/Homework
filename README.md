@@ -17,9 +17,11 @@ Each session will have dedicated folder with homework in it. You will want to cl
 When you run the tests you want to see all tests pass (to be marked green).
 
 ### Rules
-You want to create your own GitHub repository where you will be putting all of your completeled homework assignments. This repository should have similiar structure as this repository. Each session should have a dedicated folder with completed homework assignment.
+You want to create your own GitHub repository where you will be putting all of your completed homework assignments. This repository should have similar structure as this repository. Each session should have a dedicated folder with completed homework assignment.
 
-Usually homeworks will be devided in three sections, each section is ranked by dificulty. From easier to harder. We do hope you will complete all of the assignements but that is not mandatory.
+Usually homework will be divided in three sections, each section is ranked by difficulty. From easier to harder. We do hope you will complete all of the assignments but that is not mandatory.
+
+At random, person or group of people will be chosen to present their homework at the begging of each session, so be prepared.
 
 ### How do I give feedback?
 Surveys for each sessions are listed below, we kindly as you fill it in after each session. It will help us improve and deliver more quality.
