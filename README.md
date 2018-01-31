@@ -11,7 +11,7 @@ Will be adding new homework for each new session.
  
  ### Content
 
-Each session will have dedicated folder with homework in it. You will want to clone or simply download repository and then implement assigned homework task.
+Each session will have dedicated folder with homework in it. You will want to clone or simply download repository and then implement assigned homework tasks.
 
 ### How do I know when I am done?
 When you run the tests you want to see all tests pass (to be marked green).
