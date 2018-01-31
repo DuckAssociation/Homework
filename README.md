@@ -1,4 +1,4 @@
-# Homework for c# course
+# Homework for C# course
 
 Will be adding new homework for each new session.
 
