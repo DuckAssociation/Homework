@@ -33,3 +33,6 @@ Surveys for each sessions are listed below, we kindly ask you fill it in after e
 3) [#3 session] - survey for third session;
 4) [#4 session] - survey for fourth session;
 5) [#5 session] - survey for fifth session;
+
+### Recordings
+Recording could be found in share location under ```I:\Div\B\BB0000-BB9999\BB9000-BB9999\BB9195\Recordings```
