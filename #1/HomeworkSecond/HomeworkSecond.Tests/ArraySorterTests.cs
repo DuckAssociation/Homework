@@ -25,7 +25,7 @@ namespace HomeworkSecond.Tests
         [TestMethod]
         [DataRow(new[] { 1, 1, 2, 6, 82, 854, 5, 81, 5, 2, 5, 4 }, new[] { 854, 82, 81, 6, 5, 5, 5, 4, 2, 2, 1, 1, })]
         [DataRow(new[] { 3, 1, 2 }, new[] { 3, 2, 1 })]
-        [DataRow(new[] { 2, 2, 1 }, new[] { 3, 2, 2 })]
+        [DataRow(new[] { 2, 2, 1 }, new[] { 2, 2, 1 })]
         [DataRow(new[] { 2 }, new[] { 2 })]
         [DataRow(new int[] { }, new int[] { })]
         public void GivenArrayIsInitialized_WhenItContainsUnorderedIntElements_ThenItIsDescSorted(int[] given, int[] expected)
