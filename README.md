@@ -28,11 +28,14 @@ We have four mentors that can help you & guide you towards results. We are here 
 
 ### How do I give feedback?
 Surveys for each sessions are listed below, we kindly ask you fill it in after each session. It will help us improve and deliver more quality.
-1) [#1 session](https://www.surveymonkey.com/r/8JZSQ2K) - survey for first session;
-2) [#2 session](https://www.surveymonkey.com/r/8F2ZZW3) - survey for second session;
+1) [[#1 session]](https://www.surveymonkey.com/r/8JZSQ2K) - survey for first session;
+2) [[#2 session]](https://www.surveymonkey.com/r/8F2ZZW3) - survey for second session;
 3) [#3 session] - survey for third session;
 4) [#4 session] - survey for fourth session;
 5) [#5 session] - survey for fifth session;
 
 ### Recordings
 Recording could be found in share location under ```I:\Div\B\BB0000-BB9999\BB9000-BB9999\BB9195\Recordings```
+
+### Still need some help?
+First - [Google](https://www.google.lt) is your friend. Also you can find some good explanations in [YouTube](https://www.youtube.com). You can start from [this one](https://www.youtube.com/watch?v=pSiIHe2uZ2w&list=PLPV2KyIb3jR6ZkG8gZwJYSjnXxmfPAl51).
