@@ -1,4 +1,6 @@
-﻿namespace LetsQueue
+﻿using System;
+
+namespace LetsQueue
 {
     public class Coffee
     {
@@ -10,14 +12,13 @@
 
         public override int GetHashCode()
         {
-            return TypeOfCoffee.GetHashCode();
+            // TODO: Get Hash of TypeOfCoffee string and return it.
+            throw new NotImplementedException();
         }
         public override bool Equals(object obj)
         {
-            if (obj is Coffee)
-                return ((Coffee)obj).TypeOfCoffee == TypeOfCoffee;
-
-            return false;
+            // TODO: Implement equals check between obj and coffee. Hint : this.TypeOfCoffee == ((Coffee)obj).TypeOfCoffee 
+            throw new NotImplementedException();
         }
     }
 }
