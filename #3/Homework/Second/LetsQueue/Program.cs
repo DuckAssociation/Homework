@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace LetsQueue
 {
@@ -8,11 +7,14 @@ namespace LetsQueue
     {
         static void Main(string[] args)
         {
+            // Do your testing here.
+
+            Console.ReadKey();
         }
     }
     public class CoffeeShop
     {
-        // TODO: Implement phone book without changing method signature. Replace comments with your code to succeed in this task. Good luck!
+        // TODO: Implement coffee shop without changing method signature. Replace comments with your code to succeed in this task. Good luck!
 
         Dictionary<Coffee, int> _coffees = new Dictionary<Coffee, int>();
         Queue<int> _customers = new Queue<int>();
