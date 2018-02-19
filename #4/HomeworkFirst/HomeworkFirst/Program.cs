@@ -11,7 +11,7 @@
             // 4) Pass in two or more interfaces into class (A).
             // 5) Call a method of class (A) which calls all passed in interfaces methods.
                 // I.E. Interface has method print(), when you call class (A) method print 
-                // it will call print method on all interfaces passed in the costructor.
+                // it will call print method on all interfaces passed in the constructor.
             
             // Second:
             // Do the same thing only using delegates (Func, Action);
