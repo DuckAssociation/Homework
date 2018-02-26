@@ -3,7 +3,7 @@
 Will be adding new homework for each new session.
 
 ### I am lost! What to do?!
- 1) Open solution (.sln);
+ 1) Open solution (.sln) with Visual Studio (you need to get all homework folder);
  2) Find a file (.cs) to write your code;
  3) Follow instructions provided in commented (```/**/ ``` or ```//```) parts of the file (.cs);
  4) To test your implementation press ```ctrl+R``` and ```ctrl+A``` while holding ```ctrl``` all the time. Or in ```Visual Studio -> Test -> Run -> All Tests```;
