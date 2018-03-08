@@ -34,7 +34,7 @@ Surveys for each sessions are listed below, we kindly ask you fill it in after e
 4) [[#4 session]](https://www.surveymonkey.com/r/8FTHYYX) - survey for fourth session;
 5) [[#5 session]](https://www.surveymonkey.com/r/8FN8PSV) - survey for fifth session;
 6) [[#6 session]](https://www.surveymonkey.com/r/8FBTLPV) - survey for sixth session;
-7) [#7 session] - survey for seventh session;
+7) [[#7 session]](https://www.surveymonkey.com/r/7BP9KDK) - survey for seventh session;
 
 
 ### Recordings
