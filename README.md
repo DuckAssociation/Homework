@@ -36,7 +36,7 @@ Surveys for each sessions are listed below, we kindly ask you fill it in after e
 6) [[#6 session]](https://www.surveymonkey.com/r/8FBTLPV) - survey for sixth session;
 7) [[#7 session]](https://www.surveymonkey.com/r/7BP9KDK) - survey for seventh session;
 8) [[#8 session]](https://www.surveymonkey.com/r/9NNYL2Q) - survey for eighth session;
-9) [#9 session] - survey for ninth session;
+9) [[#9 session]](https://www.surveymonkey.com/r/DRQ9HGP) - survey for ninth session;
 10) [#10 session] - survey for ten session;
 
 
